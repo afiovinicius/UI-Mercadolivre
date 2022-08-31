@@ -6,7 +6,6 @@ main {
   overflow: hidden;
   .heroleft {
     width: 100%;
-    max-width: 117.4rem;
     height: 100vh;
     background-color: $yellow_low;
     .container {
@@ -27,6 +26,7 @@ main {
   .heroright {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 76.6rem;
     height: 100vh;
